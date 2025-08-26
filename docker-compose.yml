@@ -1,0 +1,8 @@
+version: "2.1"
+services:
+  omni-tools:
+    image: iib0011/omni-tools:latest
+    container_name: omni-tools
+    restart: unless-stopped
+    ports:
+      - "8080:80"
